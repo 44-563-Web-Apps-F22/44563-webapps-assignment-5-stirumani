@@ -13,8 +13,7 @@
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>Insects by Tirumani Shivani</h1>
-<div> <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
     <div style="background-color:pink" class="container-fluid">
       <a class="navbar-brand" href="insects.html">Interesting Insects</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,9 +30,9 @@
         </ul>
       </div> 
     </div>
-  </div>
   </nav>
 
+<h1>Insects by Tirumani Shivani</h1>
 <div class="container">
     <div class="row">
         <div class="col-sm-2">T</div>
@@ -73,52 +72,136 @@
       <thead class="table-primary">
       <tr class="table-success">
         <th scope="col">Letter</th>
-        <th scope="col">Bird</th>
-        <th scope="col">Lake</th>
-        <th scope="col">Athlete</th>
+        <th scope="col">Insects</th>
+        <th scope="col">City</th>
+        <th scope="col">River</th>
       </tr>
     </thead>
     <tbody>
       <tr class="table">
-        <th scope="row">P</th>
-        <td>Javan myna</td>
-        <td>Jatiluhur</td>
-        <td>Jablonski</td>
+      <tr class="table-danger">
+        <th scope="row">T</th>
+        <td>Terminite</td>
+        <td>Tamilnadu</td>
+        <td>Thames River</td>
       </tr>
       <tr class = "Letter">
-        <th scope="row">O</th>
-        <td>Ashy tit</td>
-        <td>Abashiri</td>
-        <td>Aaron Smith </td>
+        <tr class = "table-info"></tr>
+        <th scope="row">I</th>
+        <td>Inchworm</td>
+        <td>Indiana</td>
+        <td>illinois</td>
       </tr>
       <tr class="Insect">
+        <tr class="table-primary">
         <th scope="row">R</th>
-        <td>King rail</td>
-        <td>Kakhovskoye</td>
-        <td>Marc Raab</td>
+        <td>Raupe</td>
+        <td>Rajasthan</td>
+        <td>Rabbit River</td>
       </tr>
       <tr class="City">
-        <th scope="row">E</th>
-        <td>Kingfisher</td>
-        <td>Kamburu</td>
-        <td>Kevin</td>
+        <tr class="table-light"></tr>
+        <th scope="row">U</th>
+        <td>Underwing</td>
+        <td>Uttarkhand</td>
+        <td>Ugashik River</td>
       </tr>
       <tr class="River">
-        <th scope="row">D</th>
-        <td>Ural owl</td>
-        <td>Ubinskoe</td>
-        <td>Ulis </td>
+        <tr class="table-primary">
+        <th scope="row">M</th>
+        <td>Mayflies</td>
+        <td>Maldives</td>
+        <td>Macatawa River</td>
       </tr>
       <tr class="table-info">
-        <th scope="row">Y</th>
-        <td>Little cuckoo</td>
-        <td>Lacar</td>
-        <td>Luis</td>
+        <th scope="row">A</th>
+        <td>Antlion</td>
+        <td>Atlanta</td>
+        <td>Alfia</td>
       </tr>
     </tbody>
     </table> 
     <br>
+    <label>All-Buttons</label>
+    <br>
+    <button class="btn">T</button>
+    <button class="btn">I</button>
+    <button class="btn">R</button>
+    <button class="btn">U</button>
+    <button class="btn">M</button>
+    <button class="btn">A</button>
+    <br>
+    <label>Group Button</label>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="group 1">
+        <button type="button" class="btn btn-success">T</button>
+        <button type="button" class="btn btn-success">I</button>
+        <button type="button" class="btn btn-success">R</button>
+      </div>
 
-    
+      <div class="btn-group" role="group" aria-lable="group 2">
+       <button type="button" class="btn btn-warning">U</button>
+       <button type="button" class="btn btn-warning">M</button>
+      </div> 
+      <div class="btn-group" role="group" aria-lable="group 3">
+        <button type="button" class="btn btn-danger">A</button>
+     </div> 
+   </div>
+
+   
+   <div class="dropdown">
+    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+       <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+       <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+ 
+     </div>
+   </div> 
+   <form>
+    <div class="mb-3">
+      <label for="Email1" class="form-label">EmailAdd</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Enter email ID</div>
+    </div>
+    <div class="mb-3">
+      <label for="passwordofemail" class="form-label">Insect</label>
+      <input type="text" class="form-control" id="Enter your password">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <div class="card-group">
+    <div class="card" style="width: 12rem;">
+      <img src="image3.png" class="card-img-top" alt="Terminite">
+      <div class="card-body">
+        <h5 class="card-title">Terminites</h5>
+        <p class="card-text">Termites are small insects that live in colonies and have distinct castes (eusocial) and feed on wood or other dead plant matter, occurring on every continent except Antarctica. Termites comprise the infraorder Isoptera, or alternatively the epifamily Termitoidae, within the order Blattodea (along with cockroaches). Termites were once classified in a separate order from cockroaches, but recent phylogenetic studies indicate that they evolved from cockroaches, as they are deeply nested within the group, and the sister group to wood eating cockroaches of the genus Cryptocercus. Previous estimates suggested the divergence took place during the Jurassic or Triassic. More recent estimates suggest that they have an origin during the Late Jurassic,[3] with the first fossil records in the Early Cretaceous. About 3,106 species are currently described, with a few hundred more left to be described. Although these insects are often called "white ants",[4] they are not ants, and are not closely related to ants.</p>
+        <a href="https://en.wikipedia.org/wiki/Termite" class="btn btn-primary">Indetail of Terminites</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 12rem;">
+      <img src="Image2.png" class="card-img-top" alt="Inchworm">
+      <div class="card-body">
+        <h5 class="card-title">Inchworm</h5>
+        <p class="card-text">Inchworms aren't caterpillars of a single species; they are the larvae of many different geometrid moths. Unique among caterpillars, inchworms have three pairs of front legs and either two or three pairs of rear legs, but no legs in the center. When walking, inchworms move their rear legs forward, creating a loop in their middles, and then move their front legs forward. They appear to be taking measurements one inch at a time.</p>
+        <a href="https://animals.mom.com/inchworm-8679.html" class="btn btn-primary">Indetail of Inchworm</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 12rem;">
+      <img src="Image1.png" class="card-img-top" alt="Raupe">
+      <div class="card-body">
+        <h5 class="card-title">Raupe</h5>
+        <p class="card-text">As with most common names, the application of the word is arbitrary, since the larvae of sawflies (suborder Symphyta) are commonly called caterpillars as well.[1][2] Both lepidopteran and symphytan larvae have eruciform body shapes.Caterpillars of most species eat plant material (often leaves), but not all; some (about 1%) eat insects, and some are even cannibalistic. Some feed on other animal products. For example, clothes moths feed on wool, and horn moths feed on the hooves and horns of dead ungulates.Caterpillars are typically voracious feeders and many of them are among the most serious of agricultural pests. In fact, many moth species are best known in their caterpillar stages because of the damage they cause to fruits and other agricultural produce, whereas the moths are obscure and do no direct harm. Conversely, various species of caterpillar are valued as sources of silk, as human or animal food, or for biological control of pest plants.</p>
+        <a href="https://en.wikipedia.org/wiki/Caterpillar" class="btn btn-primary">Indetail of Raupe</a>
+      </div>
+    </div>
+  </div>
+  
+  
 </body>
 </html>
